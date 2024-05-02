@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'poppins', sans-serif;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background: lightblue;
+}
+
+.form-box{
+ position: relative;
+ width: 700px;
+ height: 100%;
+ background: #4169E1;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 10px;
+}
+
+h2{
+ font-size: 2em;
+ color:black;
+ text-align:center;
+}
+
+.input-box{
+ position: relative;
+ margin: 30px 0;
+ width: 100%;
+ height: 45px;
+ border: 1px solid black;
+ background-color: white;
+ border-radius: 15px;
+ 
+
+}
+
+.input-box label{
+ position:absolute;
+ top: 50%;
+ left: 5px;
+ transform: translateY(-50%);
+ color:grey;
+ font-size: 1em;
+ pointer-events: none;
+ transition: .5s;
+ font-weight: lighter;
+ 
+}
+
+input:focus ~ label,
+input:valid ~ label{
+ top: -7px;
+ 
+}
+
+.input-box input{
+ width: 100%;
+ height: 50px;
+ background: transparent;
+ border: none;
+ outline: none;
+ font-size: 1em;
+ padding: 0 35px 0 5px;
+ color: black;
+ 
+
+}
+
+.input-box ion-icon{
+ position: absolute;
+ right: 8px;
+ color:blue;
+ font-size: 1.2em;
+ top: 12px;
+ 
+}
+
+button{
+width: 100%;
+height: 40px;
+border-radius: 40px;
+background: darkblue;
+border: none;
+outline: none;
+cursor: pointer;
+font-size: 1em;
+font-weight: 600;
+color:white;
+}
+
+.register{
+ font-size:.9em;
+ color: white;
+ text-align: center;
+ margin: 25px 0 10px;
+}
+
+.register p a{
+ text-decoration: none;
+ color:black;
+ font-weight:600;
+ padding-left: 10px;
+}
+
+.register p a:hover{ 
+ text-decoration: underline;
+}
+
+<i> <ion-icon name="bag-outline"></ion-icon></i>
